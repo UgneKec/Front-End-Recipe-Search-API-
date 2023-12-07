@@ -1,0 +1,177 @@
+/* navbar */
+.bg-body-tertiary{
+    background-color: #FFF!important;
+}
+.navbar{
+    --bs-navbar-padding-x: 10px;
+}
+@media (max-width: 400px){
+    .navbar{
+        margin-right: 20px;
+    }
+}
+.navbar-toggler{
+    border: none;
+}
+
+/* main */
+
+.start-cooking{
+    padding-top: 104px;
+}
+
+/* serch */
+.form-control{
+    border: none;
+    width: 368px;
+    height: 56px;
+    background: transparent;
+    color: #A6A6A6;
+    letter-spacing: 0.65px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+}
+.form-search{
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 22px;
+    background: #F8F8F8;
+}
+/* search icon */
+.fa-search{ 
+    width: 20px;
+    height: 20px;
+    color: #B0B0B0;
+}
+/* Main h1 ,  category */
+.main-header{
+    margin-left: 10px;
+}
+h1{
+    padding-top: 56px;
+    padding-bottom: 21px;
+    color: #752A00;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.category-links{
+    margin-left: -7px;
+}
+.category-links div{
+    border-radius: 6px;
+    background: rgba(254, 120, 78, 0.30);
+    height: 26px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-left: 17px;
+}
+.category-links button{
+    color: #FE784E;
+    padding: 0;
+    border-color: transparent;
+}
+.category-links div:hover{
+    background-color: #FE784E;
+    box-shadow: 0px 5px 11px 0px rgba(254, 120, 78, 0.28);
+    color: #FFF;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+
+}
+/* MSG */
+#msg{
+    display: none;
+    color: #752A00;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+/*Search results */
+.search-results{
+    margin: 0 auto;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.search-results .card{
+    margin: 10px;
+    width: 174px;
+    /* height: 184px; */
+    border-radius: 21px;
+    background: #FFF;
+}
+@media (max-width: 400px){
+    .search-results .card{
+        margin: 5px;
+
+    }
+}
+.card-body{
+    margin-bottom: 10px;
+}
+.card-title{
+    color: #1D1D1D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;    
+    line-height: 20px; /* 166.667% */
+    padding: 10px;
+}
+.card-additional-info{
+    padding-left: 10px;
+}
+.recepe-duration{
+    margin-right: 5px;
+}
+.recepe-category{
+    margin-left: 5px;
+}
+.card-food-rating{
+    padding-bottom: 0;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+.card-food-rating img{
+    margin-bottom: 10px;
+}
+.heart-item{
+    position:relative;
+    display:inline-block;
+}
+.notify-badge{
+    position: absolute;
+    right:-15px;
+    top:-10px;
+}
+.card-food-rating p{
+    color: #979797;
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    line-height: 0px; /* 0% */
+    letter-spacing: 0.18px;
+
+}
+.card-additional-info p{
+    color: #5F5F5F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    line-height: 0px; /* 0% */
+    list-style: none;
+}
+/* .my-card-img{
+    width: 174px;
+    height: 92px;
+} */
+
+
+

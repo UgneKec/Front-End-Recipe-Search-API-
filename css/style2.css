@@ -1,0 +1,135 @@
+.like-the-recepe{
+    width: 47px;
+    height: 47px;
+    fill: rgba(255, 100, 51, 0.17);
+}
+.watch-the-video{
+    padding: 126px 30px 30px 30px;
+    border-radius: 20px;
+}
+.card{
+    border: #FFF;
+}
+.card-img-overlay{    
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 61, 0, 0.47) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.my-bg{
+    display: flex;
+    justify-content: center;
+
+}
+.card-img-overlay h5{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.29px;
+    margin-bottom: 29px;
+}
+.card-img-overlay a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.15px;        
+}
+.watch-button{
+    width: 174px;
+    height: 50px;
+    border-radius: 15px;
+    background: #FFF;
+}
+.btn-watch-the-video{
+    background: var(--Linear, linear-gradient(95deg, #F89B29 7.84%, #FF0F7B 112.76%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*  */
+
+.recepe-buttons button{
+    border-radius: 10px;
+    background: rgba(255, 100, 51, 0.15);
+    width: 172px;
+    height: 52px;
+
+    color: #FF6433;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    margin-bottom: 44px;
+}
+.recepe-buttons button:hover{
+    border-radius: 10px;
+    background: #FF6433;
+    box-shadow: 0px 5px 11px 0px rgba(255, 100, 51, 0.29);
+    color: #FFF;
+}
+h1{
+    color: #752A00;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    margin-left: 10px
+}
+.how-many-items{
+    width: 366px;
+}
+.recepe-information ul{
+    margin-left: -20px;
+}
+.recepe-information li{
+    display: flex;
+    align-items: center; 
+
+    list-style: none;
+    border-radius: 12px;
+    background: rgba(255, 197, 164, 0.15);
+    width: 366px;
+    height: 48px;
+
+    color: #FF5C00;
+    text-shadow: 0px 2px 12px rgba(255, 92, 0, 0.60);
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.13px;
+
+    margin: 7px;
+
+}
+.recepe-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto
+}
+
+.how-to-do {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: justify; 
+    margin: auto; 
+    padding: 20px; 
+}
+#how-many-items{
+    display: none;
+}

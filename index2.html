@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/2cde0d829d.js" crossorigin="anonymous"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">  
+        <link rel="stylesheet" href="css/style2.css">
+        <title>Food</title>
+    </head>
+    <!-- nav : go-back and like -->
+    <header class="container-fluid">
+        <nav class="navbar fixed-top">
+            <div class="row">
+                <div class="go-back col position-absolute start-0 p-2">
+                    <a href="./index1.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47" fill="none">
+                            <circle cx="23.5" cy="23.5" r="23.5" fill="#FF6433"/>
+                            <path d="M27 15L19 23L27 31" stroke="#FFE5DD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div> 
+
+                <div class="col like-the-recepe position-absolute end-0 p-4 m-2">
+                    <a class="d-flex justify-content-center align-items-center" href="#">
+                        <svg  class="z-3 position-absolute" xmlns="http://www.w3.org/2000/svg" width="28" height="24" viewBox="0 0 28 24" fill="none">
+                            <path d="M25.2822 1.64103C22.2854 -0.860706 17.8285 -0.410714 15.0777 2.36959L14.0004 3.45707L12.9231 2.36959C10.1778 -0.410714 5.7154 -0.860706 2.71859 1.64103C-0.715721 4.51241 -0.896187 9.66589 2.17719 12.7783L12.759 23.4817C13.4426 24.1728 14.5527 24.1728 15.2363 23.4817L25.8181 12.7783C28.897 9.66589 28.7165 4.51241 25.2822 1.64103Z" fill="#FF6433"/>
+                        </svg>
+                        <svg class="z-1 position-absolute" xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47" fill="none">
+                            <circle cx="23.5" cy="23.5" r="23.5" fill="#FF6433" fill-opacity="0.17"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- main -->
+    <main class="container">
+        <div class="watch-the-video">
+            <div class="my-bg">
+                <div class="card rounded-4 col-lg-6" >
+                    <!-- keisti img -->
+                    <img id="the-video-picture" class="opacity-75 img-fluid rounded-4"src="" class="card-img" alt="...">
+                    <div class="card-img-overlay rounded-4 card-body ">
+                        <!-- keisti title -->
+                      <h5 id="recipe-title" class="card-title"> </h5>
+                      <div class="watch-button d-flex justify-content-center align-items-center">
+                        <!-- keisti video -->
+                        <a id = "recipe-video-yt" href="#" class="btn btn-watch-the-video">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                <g clip-path="url(#clip0_6_193)">
+                                  <path d="M11.9537 4.64885L6.38984 0.569019C5.95527 0.250802 5.44107 0.0591344 4.90424 0.0152622C4.36741 -0.02861 3.82891 0.0770267 3.34845 0.320463C2.86798 0.563899 2.4643 0.935626 2.18216 1.39444C1.90002 1.85325 1.75044 2.38123 1.75 2.91985V11.0836C1.74917 11.6228 1.89796 12.1516 2.17983 12.6112C2.4617 13.0708 2.86559 13.4431 3.34652 13.6868C3.82746 13.9305 4.36659 14.0359 4.9039 13.9913C5.4412 13.9468 5.9556 13.754 6.38984 13.4344L11.9537 9.3546C12.3229 9.08367 12.6231 8.72963 12.83 8.32111C13.0369 7.9126 13.1447 7.46111 13.1447 7.00319C13.1447 6.54526 13.0369 6.09377 12.83 5.68526C12.6231 5.27675 12.3229 4.9227 11.9537 4.65177V4.64885Z" fill="url(#paint0_linear_6_193)"/>
+                                </g>
+                                <defs>
+                                  <linearGradient id="paint0_linear_6_193" x1="2.86756" y1="-2.13267" x2="15.7768" y2="-1.23961" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F89B29"/>
+                                    <stop offset="1" stop-color="#FF0F7B"/>
+                                  </linearGradient>
+                                  <clipPath id="clip0_6_193">
+                                    <rect width="14" height="14" fill="white"/>
+                                  </clipPath>
+                                </defs>
+                            </svg>                        
+                            Watch the video</a>
+                      </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="recepe-information">
+            <div class="recepe-buttons d-flex justify-content-center ">
+                <!-- mygtukas indredientama -->
+                <div class="ingredients m-2">
+                    <button type="button" id="button-ingredients"  class="btn btn-light">Ingredients</button>
+                </div>
+                <!-- mygtukas paruosimui -->
+                <div class="details m-2">
+                    <button type="button" id="button-details" class="btn btn-light">Details</button>
+                </div>
+            </div>
+            <div id="how-many-items">
+                <h1>Ingredients</h1>
+                <img src="img/star-svgrepo-com.png" alt="">
+            </div>
+            <div id="details">
+                <!-- keisti sarasa instrukcijos arba gaminimo detales-->
+
+            </div>
+        </div>        
+    </main>     
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app2.js"></script>    
+    </body>
+</html>

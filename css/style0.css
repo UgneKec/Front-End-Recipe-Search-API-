@@ -1,0 +1,47 @@
+.container-fluid{
+    background: url("../img/unsplash_li0iC0rjvvg.png") lightgray no-repeat;
+    background-size: cover;
+    padding-bottom: 123px;
+}
+.main-img{
+    padding-top: 55px;
+}
+h1{
+    text-align: center;
+    text-shadow: 0px 11px 20px rgba(235, 94, 87, 0.43);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    background: linear-gradient(93deg, #EA5753 11.8%, #CC540D 97.42%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main-text{
+    width: 241px;
+    height: 108px;
+    margin:0 auto;
+}
+.main-button{
+    width: 260px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: var(--Linear, linear-gradient(95deg, #F89B29 7.84%, #FF0F7B 112.76%));
+    box-shadow: 0px 5px 16px 0px rgba(254, 37, 109, 0.32);
+    margin: 75px auto 0px auto;
+
+}
+.main-button a{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
